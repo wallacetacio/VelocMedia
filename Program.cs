@@ -24,7 +24,7 @@ pronto para calcular a velocidade média? Vamos lá!");
             double d = Convert.ToDouble(distancia);
             double t = Convert.ToDouble(tempo);
 
-            double Vm = d / t;
+            double Vm = Math.Round(d / t);
 
             Console.WriteLine($"Velocidade média: {Vm}m/s");
             Console.WriteLine(" ");
